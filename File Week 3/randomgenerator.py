@@ -1,9 +1,9 @@
 # haven't cover this stuff yet
 # i am only guessing
-# random number generatot
+# random number generator
 # author : MAry Metcalfe
 
-random = import random
+import random
 number = random.randint (1,10)
 
-print ("here is a random number {} .format (number)")
+print ("here is a random number {}" .format (number))
