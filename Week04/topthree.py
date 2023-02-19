@@ -15,9 +15,13 @@ numbers = []
 for i in range (0, how_many) :
     numbers.append (random.randint(range_from, range_to))
 
-print (f"{how_many} random number\t {numbers}")
+print (f"{how_many} random numbers\t\n {numbers}")
 
-top_how_many = numbers.copy()
+top_how_many = numbers.sort(reverse = True)
 
-top_how_many.sort(reverse = True)
-print ("The top {top_how_many} are\t\t{top_how_many: top_how_many]}")
+top_ones = numbers.copy
+
+
+
+print(f"The top three digits are: ")
+#print ("The top {top_how_many} are\t\t{top_one: [top_how_many]}")
