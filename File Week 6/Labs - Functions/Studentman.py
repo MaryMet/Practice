@@ -56,3 +56,13 @@ while(choice != 'q'):
  elif choice !='q':
      print("\n\nplease select either a, v or q")
  choice = display_menu
+
+def display_modules(modules):
+ print ("\tname \tgrade")
+ for module in modules:
+    print(f"\t{ module["current_student]} \t{ module["grade"]}")
+def doView(students):
+ for current_student in students:
+    print(current_student["name"])
+ display_modules(current_student["modules"]);
+
