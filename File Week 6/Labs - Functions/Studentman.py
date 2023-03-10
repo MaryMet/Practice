@@ -32,10 +32,10 @@ def read_modules():
 
  while module_name != "":
     module = {}
-    module["name"]= module_name
+    module["module_name"]= module_name
 
 module["grade"]=int(input("\t\tEnter grade:"))
-modules.append(module)
+modules.append(name)
  
 module_name = input("\tEnter next module name (blank to quit):").strip()
 
@@ -60,7 +60,7 @@ while(choice != 'q'):
 def display_modules(modules):
  print ("\tname \tgrade")
  for module in modules:
-    print(f"\t{ module["current_student]} \t{ module["grade"]}")
+    print(f"\t{ module['name']} \t{ module['grade']}")
 def doView(students):
  for current_student in students:
     print(current_student["name"])

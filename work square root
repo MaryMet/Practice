@@ -1,0 +1,20 @@
+# why cant this work
+
+number = float(input("Enter a number : "))
+
+howmany = {0,10}
+def newtonSqrt(number, howmany):
+   
+    howmany - {0,10}
+    approx = 0.5 * number
+    for i in range(howmany):
+        betterapprox = 0.5 * (approx + number/approx)
+        approx = betterapprox
+    return betterapprox
+
+#print(newtonSqrt(10, 3))
+#print(newtonSqrt(10, 5))
+#print(newtonSqrt(10, 10))
+
+newtonSqrt(number, howmany)
+
