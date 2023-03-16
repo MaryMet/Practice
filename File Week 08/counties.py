@@ -10,5 +10,5 @@ counties = np.random.choice (possible_counties, p = [0.1, 0.3, 0.2, 0.12, 0.28],
 
 unique, counts = np.unique(counties, return_counts = True)
 
-plt.pie (counts, labels = unique)
+plt.bar (counts, unique)
 plt.show()
